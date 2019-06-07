@@ -1,0 +1,2 @@
+# Autismo-disabilit-go-kart
+Progetto in corso go kart per il mio bambino di 5 anni con autismo grave prevede un telecomando con Arduino uno r3 e un rf24 con 6 pulsanti,  i comandi sono:avanti, avanti piano, destra, sinistra, indietro, in più un pulsante per attivare o disattivare i comandi di bordo per provare a guidare. Con una centralina di comando con Arduino uno r3 e rf24  che manda i segnali a un arduino mega 2560 che pilota 3 Schede relè, 2 Schede da 4 relè,  una da 2 relè. 
