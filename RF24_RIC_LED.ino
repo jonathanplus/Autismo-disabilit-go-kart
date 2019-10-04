@@ -41,76 +41,76 @@ void loop()
    
     if ((datatoreceive[0])==1) // avanti
     {
-      digitalWrite (ledpin1,HIGH);
+      digitalWrite (ledpin1,LOW);
       Serial.println("datatoreceive :");
       Serial.println(datatoreceive[0]);
-      delay (100);
-      digitalWrite (ledpin1,LOW);
+      delay (150);
+      digitalWrite (ledpin1,HIGH);
     
     }
     else
     {
-      digitalWrite (ledpin1,LOW);
+      digitalWrite (ledpin1,HIGH);
     }
     if ((datatoreceive[0])==2) // avanti piano
     {
-      digitalWrite (ledpin2,HIGH);
+      digitalWrite (ledpin2,LOW);
       Serial.println("datatoreceive :");
       Serial.println(datatoreceive[0]);
-      delay (100);
-      digitalWrite (ledpin2,LOW);      
+      delay (250);
+      digitalWrite (ledpin2,HIGH);      
     }
     else
     {
-      digitalWrite (ledpin2,LOW);
+      digitalWrite (ledpin2,HIGH);
     }
     if ((datatoreceive[0])==3) // destra
     {
-      digitalWrite (ledpin3,HIGH);
+      digitalWrite (ledpin3,LOW);
       Serial.println("datatoreceive :");
       Serial.println(datatoreceive[0]);
       delay (100);
-      digitalWrite (ledpin3,LOW);
+      digitalWrite (ledpin3,HIGH);
     }
     else
     {
-      digitalWrite (ledpin3,LOW);
+      digitalWrite (ledpin3,HIGH);
     }
     if ((datatoreceive[0])==4) // sinistra
     {
-      digitalWrite (ledpin4,HIGH);
+      digitalWrite (ledpin4,LOW);
       Serial.println("datatoreceive :");
       Serial.println(datatoreceive[0]);
       delay (100);
-      digitalWrite (ledpin4,LOW);
+      digitalWrite (ledpin4,HIGH);
     }
     else
     {
-      digitalWrite (ledpin4,LOW);
+      digitalWrite (ledpin4,HIGH);
     }
     if ((datatoreceive[0])==5) // indietro
     {
-      digitalWrite (ledpin5,HIGH);
+      digitalWrite (ledpin5,LOW);
       Serial.println("datatoreceive :");
       Serial.println(datatoreceive[0]);
       delay (100);
-      digitalWrite (ledpin5,LOW);
+      digitalWrite (ledpin5,HIGH);
     }
     else
     {
-      digitalWrite (ledpin5,LOW);
+      digitalWrite (ledpin5,HIGH);
     }
     if ((datatoreceive[0])==6) // abilita disabilita comandi a macchina
     {
-      digitalWrite (ledpin6,HIGH);
+      digitalWrite (ledpin6,LOW);
       Serial.println("datatoreceive :");
       Serial.println(datatoreceive[0]);
       delay (100);
-      digitalWrite (ledpin6,LOW);
+      digitalWrite (ledpin6,HIGH);
     }
     else
     {
-      digitalWrite (ledpin6,LOW);
+      digitalWrite (ledpin6,HIGH);
     }    
   }
 }
